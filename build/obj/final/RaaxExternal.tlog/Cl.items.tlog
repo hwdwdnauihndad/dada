@@ -1,0 +1,14 @@
+C:\Users\Thomas\Downloads\Chrome\src\main.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\main.obj
+C:\Users\Thomas\Downloads\Chrome\src\game.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\game.obj
+C:\Users\Thomas\Downloads\Chrome\src\esp.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\esp.obj
+C:\Users\Thomas\Downloads\Chrome\src\core\device.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\device.obj
+C:\Users\Thomas\Downloads\Chrome\src\core\window.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\window.obj
+C:\Users\Thomas\Downloads\Chrome\src\gui.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\gui.obj
+C:\Users\Thomas\Downloads\Chrome\src\helpers\widgets.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\widgets.obj
+C:\Users\Thomas\Downloads\Chrome\src\pages\main_page.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\main_page.obj
+C:\Users\Thomas\Downloads\Chrome\src\imgui\imgui.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\imgui.obj
+C:\Users\Thomas\Downloads\Chrome\src\imgui\imgui_draw.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\imgui_draw.obj
+C:\Users\Thomas\Downloads\Chrome\src\imgui\imgui_widgets.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\imgui_widgets.obj
+C:\Users\Thomas\Downloads\Chrome\src\imgui\imgui_tables.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\imgui_tables.obj
+C:\Users\Thomas\Downloads\Chrome\src\imgui\backends\imgui_impl_win32.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\imgui_impl_win32.obj
+C:\Users\Thomas\Downloads\Chrome\src\imgui\backends\imgui_impl_dx11.cpp;C:\Users\Thomas\Downloads\Chrome\build\obj\final\imgui_impl_dx11.obj

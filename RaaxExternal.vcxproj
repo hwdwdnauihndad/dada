@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Release|x64"><Configuration>Release</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><VCProjectVersion>16.0</VCProjectVersion><ProjectGuid>{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}</ProjectGuid><RootNamespace>ArcExternal</RootNamespace><WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>Application</ConfigurationType><UseDebugLibraries>false</UseDebugLibraries><PlatformToolset>v143</PlatformToolset><CharacterSet>Unicode</CharacterSet></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup><OutDir>$(ProjectDir)build\Release\</OutDir><IntDir>$(ProjectDir)build\obj\final\</IntDir><TargetName>RuntimeBroker</TargetName></PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile><LanguageStandard>stdcpp17</LanguageStandard><RuntimeLibrary>MultiThreaded</RuntimeLibrary><Optimization>MinSpace</Optimization><PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions><AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)src\imgui;$(ProjectDir)src\imgui\backends;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories></ClCompile>
+    <Link><SubSystem>Windows</SubSystem><AdditionalDependencies>d3d11.lib;dxgi.lib;dcomp.lib;dwmapi.lib;%(AdditionalDependencies)</AdditionalDependencies></Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\game.cpp" />
+    <ClCompile Include="src\esp.cpp" />
+    <ClCompile Include="src\core\device.cpp" />
+    <ClCompile Include="src\core\window.cpp" />
+    <ClCompile Include="src\gui.cpp" />
+    <ClCompile Include="src\helpers\widgets.cpp" />
+    <ClCompile Include="src\pages\main_page.cpp" />
+    <ClCompile Include="src\imgui\imgui.cpp" />
+    <ClCompile Include="src\imgui\imgui_draw.cpp" />
+    <ClCompile Include="src\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="src\imgui\imgui_tables.cpp" />
+    <ClCompile Include="src\imgui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="src\imgui\backends\imgui_impl_dx11.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\primitives.h" />
+    <ClInclude Include="src\w2s.h" />
+    <ClInclude Include="src\config.h" />
+    <ClInclude Include="src\game.h" />
+    <ClInclude Include="src\esp.h" />
+    <ClInclude Include="src\gui.h" />
+    <ClInclude Include="src\core\device.h" />
+    <ClInclude Include="src\core\window.h" />
+    <ClInclude Include="src\theme\colors.h" />
+    <ClInclude Include="src\theme\layout.h" />
+    <ClInclude Include="src\helpers\widgets.h" />
+    <ClInclude Include="src\pages\main_page.h" />
+    <ClInclude Include="src\sdk\MathTypes.h" />
+    <ClInclude Include="src\sdk\Objects.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>
